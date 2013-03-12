@@ -892,7 +892,7 @@ looks funny."
              ;; return *a* version
              scraped-version-1)
             ((or ok-1 ok-2)
-             (message "Ambiguous desktop file format version check: only one looks right: %d %d."
+             (message "Ambiguous desktop file format version check: only one looks right: %s %s."
                       scraped-version-1 scraped-version-2)
              ;; return the version that looks right
              (cond (ok-1
